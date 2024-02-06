@@ -11,6 +11,7 @@ This is an web app developed with Python and Flask to decode bar signatures.
 ---
 
 ## Tech stack
+
 ![python](https://img.shields.io/badge/-Python-05122A?style=flat&logo=python)&nbsp;
 ![Flask](https://img.shields.io/badge/-Flask-05122A?style=flat&logo=flask)&nbsp;
 ![docker](https://img.shields.io/badge/-Docker-05122A?style=flat&logo=docker)&nbsp;
@@ -28,9 +29,9 @@ If you has a Python 3 installed on your desktop, follow this:
 git clone git@github.com:upALX/ComeToMyBar.git
 ```
 
-**2 - Create a virtual environment** (*you must have virtualenv installed*)
+**2 - Create a virtual environment** *you must have [virtualenv](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/) installed.*
 ```
-virtualenv .venv --python=python3.11  
+virtualenv .venv --python=python3.12
 ```
 
 **3 - Install all dependencies:**
@@ -38,6 +39,8 @@ virtualenv .venv --python=python3.11
 ```
 pip install -r requirements.txt requirements-dev.txt
 ```
+
+*NOTE: if you change this project and on try run, NO RUN: check the `.pylintrc` file to see the rules* 😐
 
 ## Make your mark :triangular_flag_on_post:   
 
