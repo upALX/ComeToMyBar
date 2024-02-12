@@ -14,8 +14,6 @@ This is an web app developed with Python and Flask to decode bar signatures.
 
 ![python](https://img.shields.io/badge/-Python-05122A?style=flat&logo=python)&nbsp;
 ![Flask](https://img.shields.io/badge/-Flask-05122A?style=flat&logo=flask)&nbsp;
-![docker](https://img.shields.io/badge/-Docker-05122A?style=flat&logo=docker)&nbsp;
-<!--  ![SQLAlchemy](https://img.shields.io/badge/-django-05122A?style=flat&logo=SQLAlchemy)&nbsp;-->
 
 ## How to use 🫁
 
@@ -38,6 +36,12 @@ virtualenv .venv --python=python3.12
 
 ```
 pip install -r requirements.txt requirements-dev.txt
+```
+
+**4 - Run the app:**
+
+```
+python3 run main.py
 ```
 
 *NOTE: if you change this project and on try run, NO RUN: check the `.pylintrc` file to see the rules* 😐
